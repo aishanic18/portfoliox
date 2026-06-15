@@ -193,7 +193,7 @@ body:not([data-page="home"]) main { padding-top: 60px; }
 }
 
 /* ===== Cards (projects) ===== */
-.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 18px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 18px; margin-top: 24px; }
 .card {
   background: var(--surface);
   border: 1px solid var(--border);
