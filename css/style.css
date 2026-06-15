@@ -147,7 +147,7 @@ body:not([data-page="home"]) main { padding-top: 60px; }
   flex: 0 0 auto;
   width: 156px;
   height: 156px;
-  border-radius: 50%;
+  border-radius: 16px;
   object-fit: cover;
   background: var(--bg-soft);
 }
