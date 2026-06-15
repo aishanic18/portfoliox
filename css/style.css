@@ -138,6 +138,7 @@ main { padding: 500px 0 160px; }
   display: flex;
   gap: 40px;
   align-items: center;
+  padding-top: 120px;
   margin-bottom: 80px;
 }
 .hero-photo {
