@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name — PhD Student</title>
+  <meta name="description" content="Academic portfolio of Your Name, PhD student." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css?v=3" />
+  <script src="js/main.js"></script>
+</head>
+<body data-page="home">
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="nav-brand" href="index.html">Your Name</a>
+      <ul class="nav-links">
+        <li><a href="index.html" data-nav="home">Home</a></li>
+        <li><a href="publications.html" data-nav="publications">Publications</a></li>
+        <li><a href="projects.html" data-nav="projects">Projects</a></li>
+        <li><a href="about.html" data-nav="about">About</a></li>
+        <li>
+          <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle theme">
+            <span class="icon-sun">☀️</span><span class="icon-moon">🌙</span>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- Hero: photo + bio -->
+    <section class="hero">
+      <img class="hero-photo" src="images/profile.jpg" alt="Photo of Your Name"
+           onerror="this.style.visibility='hidden'" />
+      <div class="hero-body">
+        <h1>Your Name</h1>
+        <p class="hero-role">PhD Student · Department · University</p>
+        <p class="hero-bio">
+          I'm a PhD student researching [your research area]. My work focuses on
+          [one or two sentences about what you study and why it matters]. I'm
+          interested in [methods / questions], and I aim to [your broader goal].
+        </p>
+        <div class="hero-links">
+          <a href="mailto:you@university.edu">✉️ Email</a>
+          <a href="#" target="_blank" rel="noopener">📄 CV</a>
+          <a href="https://scholar.google.com" target="_blank" rel="noopener">🎓 Google Scholar</a>
+          <a href="https://github.com" target="_blank" rel="noopener">💻 GitHub</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener">in LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section">
+      <h2 class="section-title">Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">2023 – Present</div>
+          <div class="timeline-content">
+            <h3>Ph.D. in [Field]</h3>
+            <div class="place">University Name</div>
+            <p>Advisor: Prof. [Name]. Dissertation: [working title].</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2021 – 2023</div>
+          <div class="timeline-content">
+            <h3>M.S. in [Field]</h3>
+            <div class="place">University Name</div>
+            <p>Thesis: [title]. GPA / honors if relevant.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2017 – 2021</div>
+          <div class="timeline-content">
+            <h3>B.S. in [Field]</h3>
+            <div class="place">University Name</div>
+            <p>Graduated with [honors]. Relevant coursework or awards.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interests -->
+    <section class="section">
+      <h2 class="section-title">Research Interests</h2>
+      <div class="tags">
+        <span class="tag">Machine Learning</span>
+        <span class="tag">Natural Language Processing</span>
+        <span class="tag">Causal Inference</span>
+        <span class="tag">Human-Computer Interaction</span>
+        <span class="tag">Computational Social Science</span>
+        <span class="tag">Statistics</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      © <span id="year">2026</span> Your Name ·
+      <a href="mailto:you@university.edu">you@university.edu</a>
+    </div>
+  </footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

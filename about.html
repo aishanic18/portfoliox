@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Your Name</title>
+  <meta name="description" content="About Your Name." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css?v=3" />
+  <script src="js/main.js"></script>
+</head>
+<body data-page="about">
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="nav-brand" href="index.html">Your Name</a>
+      <ul class="nav-links">
+        <li><a href="index.html" data-nav="home">Home</a></li>
+        <li><a href="publications.html" data-nav="publications">Publications</a></li>
+        <li><a href="projects.html" data-nav="projects">Projects</a></li>
+        <li><a href="about.html" data-nav="about">About</a></li>
+        <li>
+          <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle theme">
+            <span class="icon-sun">☀️</span><span class="icon-moon">🌙</span>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1 class="page-title">About</h1>
+    <div class="prose">
+      <p>
+        I'm a PhD student at [University], where I work with [Advisor / Lab] on
+        [research area]. Before starting my doctorate, I [previous experience —
+        degree, job, or research]. My research is motivated by [the big-picture
+        question or problem you care about].
+      </p>
+      <p>
+        Methodologically, I work on [methods / approaches]. I'm especially
+        excited about [a specific direction], and I hope my work contributes to
+        [intended impact].
+      </p>
+
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>Research Assistant</strong>, Lab Name — 2023–present</li>
+        <li><strong>Research Intern</strong>, Company / Institution — Summer 2024</li>
+        <li><strong>Teaching Assistant</strong>, Course Name — 2023</li>
+      </ul>
+
+      <h2>Awards &amp; Honors</h2>
+      <ul>
+        <li>Fellowship / Grant Name, Year</li>
+        <li>Best Paper / Travel Award, Venue, Year</li>
+      </ul>
+
+      <h2>Service</h2>
+      <ul>
+        <li>Reviewer: VENUE 2024, 2025</li>
+        <li>Organizer: Reading group / workshop</li>
+      </ul>
+
+      <h2>Beyond research</h2>
+      <p>
+        Outside of work I enjoy [hobbies / interests]. Feel free to reach out at
+        <a href="mailto:you@university.edu">you@university.edu</a> — I'm always
+        happy to chat about research or collaborations.
+      </p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      © <span id="year">2026</span> Your Name ·
+      <a href="mailto:you@university.edu">you@university.edu</a>
+    </div>
+  </footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

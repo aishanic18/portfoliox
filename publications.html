@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Publications — Your Name</title>
+  <meta name="description" content="Publications by Your Name." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css?v=3" />
+  <script src="js/main.js"></script>
+</head>
+<body data-page="publications">
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="nav-brand" href="index.html">Your Name</a>
+      <ul class="nav-links">
+        <li><a href="index.html" data-nav="home">Home</a></li>
+        <li><a href="publications.html" data-nav="publications">Publications</a></li>
+        <li><a href="projects.html" data-nav="projects">Projects</a></li>
+        <li><a href="about.html" data-nav="about">About</a></li>
+        <li>
+          <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle theme">
+            <span class="icon-sun">☀️</span><span class="icon-moon">🌙</span>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1 class="page-title">Publications</h1>
+    <p class="page-intro">
+      A list of my peer-reviewed papers, workshop contributions, and preprints.
+      <span class="me">My name</span> is shown in bold. † denotes equal contribution.
+    </p>
+
+    <div class="pub-year-group">
+      <h2>2025</h2>
+      <div class="pub-list">
+        <div class="pub">
+          <div class="pub-title">A Descriptive Title of Your Most Recent Paper</div>
+          <div class="pub-authors"><span class="me">Your Name</span>, Co-Author A, Co-Author B</div>
+          <div class="pub-venue">Conference / Journal Name (VENUE 2025)</div>
+          <div class="pub-links">
+            <a href="#" target="_blank" rel="noopener">PDF</a>
+            <a href="#" target="_blank" rel="noopener">arXiv</a>
+            <a href="#" target="_blank" rel="noopener">Code</a>
+            <a href="#" target="_blank" rel="noopener">BibTeX</a>
+          </div>
+        </div>
+
+        <div class="pub">
+          <div class="pub-title">Another Paper Title From This Year</div>
+          <div class="pub-authors">Co-Author C, <span class="me">Your Name</span>†, Co-Author D†</div>
+          <div class="pub-venue">Workshop on Something (at VENUE 2025)</div>
+          <div class="pub-links">
+            <a href="#" target="_blank" rel="noopener">PDF</a>
+            <a href="#" target="_blank" rel="noopener">Poster</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-year-group">
+      <h2>2024</h2>
+      <div class="pub-list">
+        <div class="pub">
+          <div class="pub-title">An Earlier Paper Title</div>
+          <div class="pub-authors"><span class="me">Your Name</span>, Advisor Name</div>
+          <div class="pub-venue">Journal Name, Vol. X, pp. 1–20</div>
+          <div class="pub-links">
+            <a href="#" target="_blank" rel="noopener">PDF</a>
+            <a href="#" target="_blank" rel="noopener">DOI</a>
+            <a href="#" target="_blank" rel="noopener">BibTeX</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      © <span id="year">2026</span> Your Name ·
+      <a href="mailto:you@university.edu">you@university.edu</a>
+    </div>
+  </footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Your Name</title>
+  <meta name="description" content="Research and side projects by Your Name." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css?v=3" />
+  <script src="js/main.js"></script>
+</head>
+<body data-page="projects">
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="nav-brand" href="index.html">Your Name</a>
+      <ul class="nav-links">
+        <li><a href="index.html" data-nav="home">Home</a></li>
+        <li><a href="publications.html" data-nav="publications">Publications</a></li>
+        <li><a href="projects.html" data-nav="projects">Projects</a></li>
+        <li><a href="about.html" data-nav="about">About</a></li>
+        <li>
+          <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle theme">
+            <span class="icon-sun">☀️</span><span class="icon-moon">🌙</span>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1 class="page-title">Projects</h1>
+    <p class="page-intro">
+      Selected research projects, tools, and code I've built during my PhD.
+    </p>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Project One</h3>
+        <p>A short description of what the project does, the problem it addresses, and your role in it.</p>
+        <div class="card-tags"><span>Python</span><span>PyTorch</span><span>NLP</span></div>
+        <div class="card-links">
+          <a href="#" target="_blank" rel="noopener">GitHub</a>
+          <a href="#" target="_blank" rel="noopener">Demo</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Project Two</h3>
+        <p>Description of a dataset, library, or experiment you developed and what makes it useful.</p>
+        <div class="card-tags"><span>R</span><span>Statistics</span></div>
+        <div class="card-links">
+          <a href="#" target="_blank" rel="noopener">GitHub</a>
+          <a href="#" target="_blank" rel="noopener">Paper</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Project Three</h3>
+        <p>Description of a collaboration or open-source contribution and the outcome it produced.</p>
+        <div class="card-tags"><span>JavaScript</span><span>Visualization</span></div>
+        <div class="card-links">
+          <a href="#" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      © <span id="year">2026</span> Your Name ·
+      <a href="mailto:you@university.edu">you@university.edu</a>
+    </div>
+  </footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
