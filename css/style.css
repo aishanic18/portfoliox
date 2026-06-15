@@ -46,7 +46,7 @@ a {
 }
 a:hover { text-decoration: underline; opacity: 0.7; }
 
-.container { max-width: 760px; margin: 0 auto; padding: 0 28px; }
+.container { max-width: 1000px; margin: 0 auto; padding: 0 28px; }
 
 /* ===== Header / nav ===== */
 .site-header {
