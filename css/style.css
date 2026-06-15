@@ -113,7 +113,7 @@ a:hover { text-decoration: underline; opacity: 0.7; }
 [data-theme="dark"] .theme-toggle .icon-moon { display: inline; }
 
 /* ===== Sections ===== */
-main { padding: 180px 0 160px; }
+main { padding: 500px 0 160px; }
 
 .page-title {
   font-size: 2.1rem;
@@ -269,7 +269,7 @@ main { padding: 180px 0 160px; }
 
 /* ===== Responsive ===== */
 @media (max-width: 600px) {
-  main { padding: 88px 0 100px; }
+  main { padding: 300px 0 100px; }
   .hero { flex-direction: column; text-align: center; gap: 24px; }
   .hero-links { justify-content: center; }
   .timeline-item { grid-template-columns: 1fr; gap: 4px; }
